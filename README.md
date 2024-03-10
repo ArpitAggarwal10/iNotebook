@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# iNOTEBOOK
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### iNotebook Is A Web Application Designed To Help You Organize And Manage Your Notes Effectively. Whether You're A Student, Professional, Or Anyone Who Loves To Stay Organized, iNotebook Provides A User - Friendly Interface To Create, Edit And Delete Notes Seamlessly.
 
-## Available Scripts
+## Dependencies Used
 
-In the project directory, you can run:
+### For FrontEnd :
 
-### `npm start`
+```dotnetcli
+1. "@testing-library/jest-dom": "^5.17.0"
+2. "@testing-library/react": "^13.4.0"
+3. "@testing-library/user-event": "^13.5.0"
+4. "concurrently": "^8.2.2"
+5. "react": "^18.2.0"
+6. "react-dom": "^18.2.0"
+7. "react-router-dom": "^6.22.3"
+8. "react-scripts": "^5.0.1"
+9. "web-vitals": "^2.1.4"
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### For BackEnd :
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```dotnetcli
+1. "bcryptjs": "^2.4.3"
+2. "cors": "^2.8.5"
+3. "express": "^4.18.3"
+4. "express-validator": "^7.0.1"
+5. "jsonwebtoken": "^9.0.2"
+6. "mongoose": "^8.2.1"
+```
 
-### `npm test`
+## How To Use This Application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**1. Clone This Repository**
 
-### `npm run build`
+```dotnetcli
+git clone https://github.com/ArpitAggarwal10/iNotebook.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**2. Now Install The Necessasry Packages**
+   
+### For FrontEnd : 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```dotnetcli
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### For Backend :
 
-### `npm run eject`
+```dotnetcli
+cd backend
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**3. Finally Start The Application**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```dotnetcli
+npm run both
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Glimpses Of Application
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**1. SignUp Functionality**
 
-## Learn More
+![Signup Page Image](/images/Signup.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**2. Login Functionality**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Login Page Image](/images/Login.png)
 
-### Code Splitting
+**3. Add A Note ( Home Page )**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Home Page Image](/images/Home.png)
 
-### Analyzing the Bundle Size
+**4. About Section**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![About Page Image](/images/About.png)
